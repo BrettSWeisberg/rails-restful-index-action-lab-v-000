@@ -1,5 +1,5 @@
 class StudentsController < ActiveRecord::Base
-  def students
+  def index
     @students = Student.all
   end
 end
